@@ -13,3 +13,15 @@ body{
     height: 100vh;
     font-family: sans-serif;
 }
+button {
+    display: flex; 
+    height: 40px;
+    width: 400px;
+    margin-top: 10px;
+    border-radius: 25px;
+    background-color: rgba(24, 24, 27, 0.3);
+    font-size: x-large;
+    font-display: center;
+    font-family: sans-serif;
+    color: white;
+  }
