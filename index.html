@@ -8,28 +8,30 @@
     <title>Weather-Dashboard</title>
 </head>
 <body>
-    
+    <header class = "header">
+        Check out today's weather here!
+    </header>
     <div class="search">
         <div class="title">Search for a City:</div>
-        <input id="searchinput" placeholder="Houston" type="text" onfocus="this.value=''">
+        <input id ="searchinput" class = "searchinput" placeholder="Houston" type="text" onfocus="this.value=''">
         <div class="button" id="button"><button>Search</button></div>
     </div>
     
     <div class="searchresults">
 
-        <div class="headerweather">
+        
 
-            <div id="current" class="title"></div>
+            <div id="current" class="title"></div><br>
 
-        </div>
+        
 
         <div id="currentweather">
-            <h1 id="current"></h1>
-            <h3 id="date"></h3>
-            <h3 id="Temp"></h3>
-            <h3 id="Wind"></h3>
-            <h3 id="Humid"></h3>
-            <h3 id="UV"></h3>
+            <p id="ccity"></p>
+            <p id="date"></p>
+            <p id="Temp"></p>
+            <p id="Wind"></p>
+            <p id="Humid"></p>
+            <p id="UV"></p>
         </div>
 
     </div>
@@ -38,7 +40,7 @@
     
 
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.3/moment.min.js" integrity="sha512-x/vqovXY/Q4b+rNjgiheBsA/vbWA3IVvsS8lkQSX1gQ4ggSJx38oI2vREZXpTzhAv6tNUaX81E7QBBzkpDQayA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.3/moment.min.js"></script>
     <script src="assets/js/script.js"></script>
 </body>
 </html>

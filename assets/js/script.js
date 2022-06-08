@@ -24,7 +24,7 @@ var weather = function () {
                 .then(res1 => res1.json())
                 .then(data1 => {
                     // THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, the wind speed, and the UV index
-                    document.getElementById('current').innerHTML = `City: ${city}`
+                    document.getElementById('ccity').innerHTML = `City: ${city}`
                     document.getElementById('date').innerHTML = `${moment().format('L')}`
                     document.getElementById('Temp').innerHTML = `Temperature: ${data1.daily[0].temp.day} &#176; F`
                     document.getElementById('Humid').innerHTML = `Humidity: ${data1.daily[0].humidity}`
