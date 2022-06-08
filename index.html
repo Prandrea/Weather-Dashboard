@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Weather-Dashboard</title>
 </head>
 <body>
     
     <div class="search">
         <div class="title">Search for a City:</div>
-        <input id="cityinput" placeholder="Houston" type="text" onfocus="this.value=''">
+        <input id="searchinput" placeholder="Houston" type="text" onfocus="this.value=''">
         <div class="button" id="button"><button>Search</button></div>
     </div>
     
@@ -28,7 +28,7 @@
             <h3 id="date"></h3>
             <h3 id="Temp"></h3>
             <h3 id="Wind"></h3>
-            <h3 id="Hum"></h3>
+            <h3 id="Humid"></h3>
             <h3 id="UV"></h3>
         </div>
 
@@ -38,7 +38,7 @@
     
 
 
-    
-    <script src="/assets/js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.3/moment.min.js" integrity="sha512-x/vqovXY/Q4b+rNjgiheBsA/vbWA3IVvsS8lkQSX1gQ4ggSJx38oI2vREZXpTzhAv6tNUaX81E7QBBzkpDQayA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>

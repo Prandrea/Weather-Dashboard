@@ -6,13 +6,22 @@
 }
 
 body{
-    background-image: url("/assets/images/clouds.jpg");
+    background-image: url("../images/clouds.jpg");
     background-repeat: no-repeat;
     background-size:cover;
     overflow:hidden;
     height: 100vh;
     font-family: sans-serif;
 }
+#cityinput {
+    display: flex;
+    width: 450px;
+    height: 50px;
+    font-size: xx-large;
+    border-radius: 10px ;
+    text-indent: 10px;
+   
+  }
 button {
     display: flex; 
     height: 40px;
